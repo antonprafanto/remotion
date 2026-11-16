@@ -6,4 +6,5 @@ Ringkasan prinsip untuk semua AI Agent:
 1. User cukup memberi prompt sederhana — kerjakan setup (`npm install`, `npm run setup`, pasang `ffmpeg` bila perlu), riset, kode, QA, hingga render secara mandiri.
 2. Gunakan `npm run estimate <slug>` saat mengembangkan animasi; minta persetujuan naskah dari user sebelum menjalankan `npm run voice -- <slug>` (ElevenLabs).
 3. Verifikasi setiap hasil visual lewat `npm run lint`, `npm run stills -- <Id> ... --debug` (inspeksi PNG), `beku.py`, dan `audit.sh`.
-4. Jangan pernah membaca isi `.env` ke chat, mencetaknya, atau memasukkannya ke Git.
+4. **DILARANG meng-generate gambar/ilustrasi/model 3D makhluk bernyawa** (manusia, karakter, wajah, hewan; rujukan Shahih al-Bukhari 5950, 2225; Shahih Muslim 2109). Gunakan hanya objek tak bernyawa (diagram, grafik, benda, peta, tumbuhan, fenomena alam).
+5. Jangan pernah membaca isi `.env` ke chat, mencetaknya, atau memasukkannya ke Git.

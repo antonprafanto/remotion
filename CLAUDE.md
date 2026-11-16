@@ -42,6 +42,7 @@ Buat folder `src/videos/<slug>/` (lihat contoh `src/videos/kertas-a4/` untuk 2D 
 - Setelah naskah disetujui & `.env` tersedia, jalankan `npm run voice -- <slug>` (atau cek kandidat suara dulu lewat `npm run voices -- --json` dan `--sample`). Jika ada salah ucap 1 segmen/kata, perbaiki hemat kredit lewat `npm run ucapan`, `npm run voice:ganti`, atau `npm run voice:kata` (detail di `docs/referensi-teknis.md`).
 - Sinkronkan semua animasi dan `<Sfx>` memakai `beat('kata')` / `beatEnd('kata')` dan `segStart('id')`.
 - **Aturan visual:**
+  - **DILARANG meng-generate makhluk bernyawa (manusia, karakter, wajah, hewan)** dalam bentuk apa pun (SVG, model 3D, maupun gambar AI) — berdasarkan larangan syariat Islam (Shahih al-Bukhari 5950, 2225; Shahih Muslim 2109). Gunakan hanya objek tak bernyawa: diagram, peta, grafik data, alat/benda, bangunan, molekul, tumbuhan, atau fenomena alam (atau rekaman nyata bebas hak cipta tanpa menampilkan wajah secara negatif/sensitif).
   - Gunakan desain editorial rapi (`SolidTag`, grafik batang mulai dari `0`, satuan & tahun selalu tertulis, label `ILUSTRASI` pada tampilan rekaan).
   - **Jangan biarkan layar diam >= 0,5 detik:** gunakan `LatarDiagram`, `DriftGrid`, `breathe`, atau dorongan kamera `SubpixelImg`.
   - Patuhi **Safe Zone** (`y` antara `200..1500`, `x <= 950`).

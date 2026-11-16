@@ -74,5 +74,25 @@ Tinggal copy-paste sesuai kebutuhan:
 
 ---
 
+## Prinsip Visual & Adab (Larangan Meng-generate Makhluk Bernyawa)
+
+Dalam proyek ini, seluruh visual ilustrasi/animasi (SVG, 3D, maupun gambar AI) **dibatasi hanya pada benda mati, diagram, peta, grafik data, teks, tumbuhan, dan fenomena alam** — **jangan meng-generate gambar atau ilustrasi makhluk bernyawa** (manusia, karakter kartun, wajah, maupun hewan). Jika topik membutuhkan gambaran situasi nyata, gunakan rekaman/foto nyata yang sah atau ilustrasi objek tak bernyawa (alat, denah, grafik, molekul, bangunan, tumbuhan).
+
+Dasar larangannya dari hadits shahih:
+
+1. **Shahih al-Bukhari No. 5950 & Shahih Muslim No. 2109** (dari Abdullah bin Mas'ud *radhiyallahu 'anhu*), Rasulullah ﷺ bersabda:
+   > إِنَّ أَشَدَّ النَّاسِ عَذَابًا عِنْدَ اللَّهِ يَوْمَ الْقِيَامَةِ الْمُصَوِّرُونَ
+   > *"Sesungguhnya manusia yang paling berat siksanya di sisi Allah pada hari Kiamat adalah orang-orang yang membuat gambar (makhluk bernyawa)."*
+
+2. **Shahih al-Bukhari No. 2225** (dari jalur Ibnu Abbas *radhiyallahu 'anhuma*), Rasulullah ﷺ bersabda:
+   > مَنْ صَوَّرَ صُورَةً فَإِنَّ اللَّهَ مُعَذِّبُهُ، حَتَّى يَنْفُخَ فِيهَا الرُّوحَ، وَلَيْسَ بِنَافِخٍ فِيهَا أَبَدًا
+   > *"Barang siapa membuat suatu gambar (makhluk bernyawa), sesungguhnya Allah akan menyiksanya hingga ia meniupkan ruh ke dalamnya, padahal ia tidak akan pernah bisa meniupkannya selamanya."*
+
+   Lalu Ibnu Abbas *radhiyallahu 'anhuma* memberikan jalan keluar:
+   > وَيْحَكَ إِنْ أَبَيْتَ إِلَّا أَنْ تَصْنَعَ، فَعَلَيْكَ بِهَذَا الشَّجَرِ، كُلِّ شَيْءٍ لَيْسَ فِيهِ رُوحٌ
+   > *"Jika engkau tetap harus membuat gambar, maka buatlah gambar pohon ini — segala sesuatu yang tidak memiliki ruh."*
+
+---
+
 ## Catatan Keamanan
 - **Jangan pernah** menulis atau menempel API key ElevenLabs langsung di chat publik/GitHub. Simpan hanya di file `.env` lokal (file `.env` otomatis diabaikan oleh `.gitignore`).
