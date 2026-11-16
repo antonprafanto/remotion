@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "remotion studio",
+		"setup": "tsx scripts/sfx-kit.mts && tsx scripts/cek-setup.mts",
 		"cek-setup": "tsx scripts/cek-setup.mts",
 		"sfx-kit": "tsx scripts/sfx-kit.mts",
 		"demo-footage": "tsx scripts/demo-footage.mts",

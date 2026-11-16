@@ -1,8 +1,9 @@
 # AGENTS.md
 
-Panduan instruksi proyek ini tersedia di [CLAUDE.md](CLAUDE.md) dan dokumentasi belajar lengkap di [README.md](README.md) serta folder [docs/](docs/).
+Ikuti seluruh alur kerja dan aturan autopilot di [CLAUDE.md](CLAUDE.md), serta detail teknis di [docs/referensi-teknis.md](docs/referensi-teknis.md).
 
-Aturan singkat sebelum mengedit atau menjalankan skrip:
-1. Jangan pernah mencetak, membaca ke log, atau meng-commit `.env` (`ELEVENLABS_API_KEY`).
-2. Gunakan `npm run voice -- <slug> --estimate` saat mengembangkan adegan baru; panggil `npm run voice -- <slug>` hanya setelah user menyetujui naskah.
-3. Selalu verifikasi perubahan dengan `npm run lint` dan `npm run stills -- <CompositionId> 0 --debug`.
+Ringkasan prinsip untuk semua AI Agent:
+1. User cukup memberi prompt sederhana — kerjakan setup (`npm install`, `npm run setup`, pasang `ffmpeg` bila perlu), riset, kode, QA, hingga render secara mandiri.
+2. Gunakan `npm run estimate <slug>` saat mengembangkan animasi; minta persetujuan naskah dari user sebelum menjalankan `npm run voice -- <slug>` (ElevenLabs).
+3. Verifikasi setiap hasil visual lewat `npm run lint`, `npm run stills -- <Id> ... --debug` (inspeksi PNG), `beku.py`, dan `audit.sh`.
+4. Jangan pernah membaca isi `.env` ke chat, mencetaknya, atau memasukkannya ke Git.
